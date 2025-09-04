@@ -1,0 +1,25 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// CLASSES
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x0 (0x7D2 - 0x7D2)
+// BlueprintGeneratedClass RedDefaultButtonStyle_NoPadding.RedDefaultButtonStyle_NoPadding_C
+class URedDefaultButtonStyle_NoPadding_C : public URedDefaultButtonStyle_C
+{
+public:
+
+	static class UClass* StaticClass();
+	static class URedDefaultButtonStyle_NoPadding_C* GetDefaultObj();
+
+};
+
+}
+
+
