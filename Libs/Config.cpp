@@ -4,6 +4,8 @@
 PostRenderCallback Config::postRenderCallback = nullptr;
 void* Config::originalPostRender = nullptr;
 SDK::UWorld* Config::gWorld = nullptr;
+SDK::ULocalPlayer* Config::LocalPlayer = nullptr;
+
 uintptr_t Config::gameBase = 0;
 uintptr_t Config::moduleStart = 0;
 size_t Config::moduleSize = 0;

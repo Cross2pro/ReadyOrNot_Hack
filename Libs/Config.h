@@ -26,6 +26,8 @@ public:
     static PostRenderCallback postRenderCallback;
     static void* originalPostRender;
     static SDK::UWorld* gWorld;
+    static SDK::ULocalPlayer* LocalPlayer;
+
     static uintptr_t gameBase;
     static uintptr_t moduleStart;
     static size_t moduleSize;
