@@ -70,6 +70,7 @@ void Config::Init()
     GetUWorld();
     SDK::InitGObjects();
     InitEngine();
+    Ready::Init();
     if (gWorld->OwningGameInstance != nullptr &&
         gWorld->OwningGameInstance->LocalPlayers.IsValid() &&
         gWorld->OwningGameInstance->LocalPlayers.Num() > 0 &&

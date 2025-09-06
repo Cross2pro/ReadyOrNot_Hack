@@ -3,6 +3,7 @@
 #include <psapi.h>
 #include "Utils.h"
 #include <functional>
+#include "Ready.h"
 
 // PostRender回调函数类型定义
 typedef std::function<void(SDK::UGameViewportClient*, SDK::UCanvas*)> PostRenderCallback;

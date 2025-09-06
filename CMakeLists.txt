@@ -17,7 +17,9 @@ set(SOURCES
     main.cpp
     Libs/Config.cpp
     Libs/Render.cpp
+    
     Libs/Utils.cpp
+    Libs/Ready.cpp
     SDK/Basic.cpp
     SDK/Engine_functions.cpp
     SDK/CoreUObject_functions.cpp
